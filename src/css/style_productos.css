@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#productos-table {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.product-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #034b05;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.product-button:hover {
+  background-color: #33bcf3;
+}
+
+#cerrar-sesion-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #d84333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#cerrar-sesion-button:hover {
+  background-color: #fd1c03;
+}

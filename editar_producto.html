@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Sistema De Inventario</title>
+  <link rel="stylesheet" href="src/css/style_editar_producto.css">
+</head>
+<body>
+  <h1>Editar Producto</h1>
+  <form id="editar-producto-form">
+    <label for="id">Código de identificación:</label>
+    <input type="text" id="id" name="id" value="123" disabled>
+    <br>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" value="Producto 1">
+    <br>
+    <label for="proveedor">Proveedor:</label>
+    <input type="text" id="proveedor" name="proveedor" value="Proveedor 1">
+    <br>
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion">Descripción del producto 1</textarea>
+    <br>
+    <label for="categoria">Categoría:</label>
+    <input type="text" id="categoria" name="categoria" value="Categoría 1">
+    <br>
+    <label for="existencia">Existencia en inventario:</label>
+    <input type="number" id="existencia" name="existencia" value="10">
+    <br>
+    <button type="button" id="cancelar-cambios">Cancelar cambios</button>
+    <button type="submit" id="guardar-cambios">Guardar cambios</button>
+    <button type="button" id="volver-lista-pedidos">Volver A Lista de Productos</button>
+  </form>
+</body>
+<script src="src/js/edicion_productos.js"></script>
+
+</html>
